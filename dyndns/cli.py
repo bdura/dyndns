@@ -41,3 +41,7 @@ def update(
             dyn_dns.username.get_secret_value(),
             dyn_dns.password.get_secret_value(),
         )
+
+
+if __name__ == "__main__":
+    app()
